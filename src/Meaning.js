@@ -2,7 +2,7 @@ import React from "react";
 
 function Meaning(props){
     console.log(props.meaning);
-    return (<h1>hello from meaning</h1>);
+    return (<h1>hello</h1>);
     
 }
 
