@@ -24,11 +24,12 @@ export default function Dictionary()
     }
 
     return( <div className="component">
-        <form onSubmit={search}>
-            <input type={"text"} placeholder="Search" onChange={handleChange}/>
-            <input type={"submit"} />
-        </form>
-
+        <section>
+            <form onSubmit={search}>
+                <input type={"text"} placeholder="Search" onChange={handleChange}/>
+                <input type={"submit"} />
+            </form>
+        </section>
         <Results results={results}/>
     </div> 
 );
